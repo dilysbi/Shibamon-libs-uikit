@@ -1,14 +1,13 @@
 {
-  "name": "claim-libs-uikit",
-  "version": "0.0.4",
-  "description": "Set of UI components for claim projects",
+  "name": "shibamon-libs-uikit",
+  "version": "0.0.1",
+  "description": "Set of UI components for projects",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/dilysbi/----libs-uikit.git",
   "license": "MIT",
   "scripts": {
     "build:mac": "rm -rf ./dist && rollup -c && tsc -d --emitDeclarationOnly --declarationDir dist",

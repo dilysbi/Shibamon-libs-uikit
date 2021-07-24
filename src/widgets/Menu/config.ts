@@ -1,6 +1,6 @@
 // import iconHot from "../../assets/images/tag/icon-hot.svg"
 
-export const MENU_HEIGHT = 64 // Header height
+export const MENU_HEIGHT = 84 // Header height
 export const MENU_ENTRY_HEIGHT = 55 // Height of item
 export const SIDEBAR_WIDTH_FULL = 210 // Width of sidebar
 export const SIDEBAR_WIDTH_REDUCED = 0 // 56 Width of sidebar collapse mini only icon
@@ -28,27 +28,7 @@ export const links = [
     icon: 'HomeIcon',
     href: '/',
     calloutClass: 'rainbow',
-  },
-  {
-    label: 'NEWS',
-    icon: 'NftIcon',
-    href: '/news',
-  },
-  {
-    label: 'DOCS',
-    icon: 'GroupsIcon',
-    href: '/docs',
-  },
-  {
-    label: 'CLAIM',
-    icon: 'SunIcon',
-    href: '/claim',
-  },
-  {
-    label: 'Submit Token',
-    icon: 'CogIcon',
-    href: '/partner',
-  },
+  }
 ]
 
 export const socials = [

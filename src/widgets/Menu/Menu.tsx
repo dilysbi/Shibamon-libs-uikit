@@ -12,9 +12,6 @@ import ContentNav from "./components/ContentNav";
 import { NavProps } from "./types";
 import Avatar from "./components/Avatar";
 import { MENU_HEIGHT, SIDEBAR_WIDTH_REDUCED, SIDEBAR_WIDTH_FULL } from "./config";
-// import Guide from "./components/Guide";
-// import LangSelector from "./components/LangSelector";
-// import IconSetting from "../../assets/images/setting.svg";
 
 const Wrapper = styled.div`
   position: relative;

@@ -5,11 +5,11 @@ import { Link } from "react-router-dom";
 // import { LogoIcon } from "../../../components/Svg";
 import Flex from "../../../components/Box/Flex";
 // import { HamburgerIcon, HamburgerCloseIcon, LogoIcon as LogoWithText } from "../icons";
-import { HamburgerIcon, HamburgerCloseIcon } from "../icons";
+import { HamburgerIcon, HamburgerCloseIcon, LogoIcon as LogoWithText } from "../icons";
 import MenuButton from "./MenuButton";
-// import logoPng from "../../../assets/images/logo.svg";
+// import logoPng from "../../../assets/images/logo.png";
 // import logoTextPng from "../../../assets/images/logo/logo-text.png";
-
+ 
 interface Props {
   isMobile: boolean;
   isPushed: boolean;
@@ -42,7 +42,7 @@ const BoxImage = styled.div<{ isMobile: boolean }>`
   align-items: center;
 
   img {
-    width: ${({ isMobile }) => (isMobile ? '110px' : '160px')};
+    width: ${({ isMobile }) => (isMobile ? '65px' : '65px')};
     height: auto;
   }
 
@@ -56,12 +56,8 @@ const Logo: React.FC<Props> = ({ isMobile, isPushed, togglePush, isDark, href })
   const isAbsoluteUrl = href.startsWith("http");
   const innerLogo = ( 
     <BoxImage isMobile={isMobile}>
-      <img src="/images/logo/logo-full.svg" alt="logo"/>
+      <img src="/images/logo/logo.svg" alt="logo" width={30}/>
       {/* <img src={logoPng} alt="logo"/> */}
-
-      {/* {!isMobile && <img src="/images/logo/logo-text.png" alt="logo" width={120} />} */}
- 
-      {/* {!isMobile && <img src={logoTextPng} alt="logo" width={120} />} */}
       {/* <LogoIcon className="mobile-icon" /> */}
       {/* <LogoWithText className="desktop-icon" isDark={isDark} /> */}
     </BoxImage>

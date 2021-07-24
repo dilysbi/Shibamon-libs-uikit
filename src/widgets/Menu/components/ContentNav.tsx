@@ -19,7 +19,7 @@ const StyledBody = styled.div`
   width: 100%;
   display: flex;
   justify-content: flex-start;
-  padding-left: 25px;
+  padding-left: 175px;
 
   ul {
     border-bottom: unset;
@@ -69,7 +69,7 @@ const ContentNav: React.FC<Props> = ({ links }) => {
             <Menu.SubMenu key={entry.href ?? key} title={entry.label}>
               {entry.items.map((item, key2) => (
                 <Menu.Item key={item.href ?? key2}>
-                  <MenuEntryNav key={item.href} secondary>
+                  <MenuEntryNav key={item.href}>
                     <MenuLink href={item.href} target={item.target}>
                       {item.label}
                     </MenuLink>
@@ -80,7 +80,7 @@ const ContentNav: React.FC<Props> = ({ links }) => {
           ) : (
             <Menu.Item key={entry.href ?? key}>
               <BlockIcon>{entry.att && <Attach att={entry.att} />}</BlockIcon>
-              <MenuEntryNav key={entry.href} secondary>
+              <MenuEntryNav key={entry.href}>
                 <MenuLink href={entry.href} target={entry.target}>
                   {entry.label}
                 </MenuLink>
