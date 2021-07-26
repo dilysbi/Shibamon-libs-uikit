@@ -26,8 +26,15 @@ export const links = [
   {
     label: 'HOME',
     icon: 'HomeIcon',
-    href: '/',
+    href: '/abc',
     calloutClass: 'rainbow',
+  },
+  {
+    label: "Private Sale",
+    icon: "SunIcon",
+    href: "/",
+    // calloutClass: 'rainbow',
+    // target: '_blank'
   }
 ]
 

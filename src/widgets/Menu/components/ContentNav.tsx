@@ -19,7 +19,7 @@ const StyledBody = styled.div`
   width: 100%;
   display: flex;
   justify-content: flex-start;
-  padding-left: 175px;
+  padding-left: 30px;
 
   ul {
     border-bottom: unset;
@@ -47,7 +47,7 @@ const StyledBody = styled.div`
 const BlockIcon = styled.div`
   position: absolute;
   top: -10px;
-  right: 0px;
+  right: 0px; 
   font-size: 10px;
   color: #fc0909;
 `;

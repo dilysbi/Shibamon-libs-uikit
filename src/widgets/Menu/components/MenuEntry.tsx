@@ -72,7 +72,7 @@ const MenuEntryNav = styled.div<Props>`
   display: flex;
   align-items: center;
   height: ${MENU_ENTRY_HEIGHT}px;
-  padding: ${({ secondary }) => (secondary ? "0 20px" : "0 10px")};
+  padding: ${({ secondary }) => (secondary ? "0 30px" : "0 25px")};
   font-size: ${({ secondary }) => (secondary ? "18px" : "24px")};
   color: ${({ theme }) => theme.colors.textSubtle};
 
